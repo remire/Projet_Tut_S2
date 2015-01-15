@@ -1,0 +1,35 @@
+#########################
+### ENVOI DE FICHIERS ###
+#########################
+
+Entrer les commandes suivantes :
+
+$ git add {Fichier/Dossier}
+$ git commit -m "Message indiquant la modification, l'ajout"
+$ git push [origin master]
+
+
+##############################
+### SUPPRESSION DE FICHIER ###
+##############################
+
+$ git rm [-r si repertoire] {Fichier/Dossier}
+$ git commit -m ""
+$ git push
+
+#########################
+### COMMANDES DE BASE ###
+#########################
+
+$ git clone {URL} [Nom personnalisé] : Permet de récupérer un dépôt
+$ git status 	: Permet de connaitre ce qui est add, prêt à push, etc.
+$ git ls-files 	: Liste des fichiers/dossiers présents sur le dépôt
+$ git pull	: Actualise les fichiers en local (Attention à ne pas le faire sans avoir push auparavant, au risque de perdre ses modifications)
+
+Pour créer un nouvelle branche, suivre ce "tuto" : http://alx.github.io/gitbook/3_usage_basique_des_branches_et_des_merges.html
+
+###############
+### WARNING ###
+###############
+
+Les autres commandes ne sont pas nécessaires. Veuillez me demander en cas de doute, une erreur est très très (trèèès) vite arrivée.
